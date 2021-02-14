@@ -12,14 +12,32 @@ body{
     font-family: 'Poppins', sans-serif;
     Font-size: 15px;
     font-weight: 200;
+    width: 90%;
     background-color: var(--Very-Light-Gray);
+}
+@media screen and (min-width: 1440px) {
+    body{
+        display: grid;
+        place-items: center;
+        min-height: 100vh;        
+    }
+}
+
+.container{
+    width:100%;    
 }
 
 header {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 90%;
+}
+
+@media screen and (min-width: 1440px) {
+    header {
+        width: 35%;
+    }
 }
 
 .h1__header{
@@ -32,6 +50,13 @@ header {
     margin: 0;
     font-size: 1.5rem;;
     font-weight: 200;
+}
+@media screen and (min-width: 1440px) {
+    .cards {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .card{    
@@ -67,8 +92,7 @@ header {
 
 .text__card{    
     font-weight: 400;
-    color: var(--Grayish-Blue);
-    
+    color: var(--Grayish-Blue);    
 }
 
 .icon{    
