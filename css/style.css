@@ -40,13 +40,13 @@ header {
     }
 }
 
-.h1__header{
+.header__title > b{
     margin: 0;
     font-size: 1.5rem;
     font-weight: 600;
 }
 
-.h2__header{
+.header__title {
     margin: 0;
     font-size: 1.5rem;;
     font-weight: 200;
