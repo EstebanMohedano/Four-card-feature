@@ -15,11 +15,12 @@ body{
     width: 90%;
     background-color: var(--Very-Light-Gray);
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 768px) {
     body{
         display: grid;
         place-items: center;
         min-height: 100vh;        
+        max-width: 1440px;
     }
 }
 
@@ -34,7 +35,7 @@ header {
     width: 90%;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 768px) {
     header {
         width: 35%;
     }
@@ -51,7 +52,7 @@ header {
     font-size: 1.5rem;;
     font-weight: 200;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 768px) {
     .cards {
         display:flex;
         justify-content: center;
